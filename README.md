@@ -14,10 +14,6 @@ A web-based leadership assessment application built with Flask and Bootstrap tha
 - [Deployment](#deployment)
   - [Deploying to Heroku](#deploying-to-heroku)
   - [Updating the Online Version](#updating-the-online-version)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-- [Credits](#credits)
 
 ---
 
@@ -86,3 +82,40 @@ A web-based leadership assessment application built with Flask and Bootstrap tha
 
    ```bash
    python app.py
+   ```
+   
+   
+## Deployment (#deployment)
+
+### Deploying to Heroku (#deploying-to-heroku)
+
+1. **Install the Heroku CLI via the Official Installer:**
+
+   ```bash
+   curl https://cli-assets.heroku.com/install.sh | sh
+   ```
+
+
+2. **Log In to Heroku:**
+
+   ```bash
+   heroku login
+   ```
+
+3. **Create Heroku App:**
+
+   ```bash
+   heroku create leadly
+   ```
+
+4. **Push to Heroku:**
+
+   ```bash
+  git push heroku main
+  ```
+
+
+
+
+
+
