@@ -82,7 +82,7 @@ A web-based leadership assessment application built with Flask and Bootstrap tha
    export FLASK_APP=app.py
    export FLASK_ENV=development
 
-5. **Running Locally:**
+### Running Locally
 
    ```bash
    python app.py
