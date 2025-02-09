@@ -64,3 +64,25 @@ A web-based leadership assessment application built with Flask and Bootstrap tha
    ```bash
    git clone https://github.com/LD-Shell/leadership_app.git
    cd leadership-app
+   
+2. **Create a Virtual Environment:**
+
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+3. **Install Dependencies:**
+
+   ```bash
+   pip install -r requirements.txt
+
+4. **Set Environment Variables (Optional for Development):**
+
+   ```bash
+   export FLASK_APP=app.py
+   export FLASK_ENV=development
+
+5. **Running Locally:**
+
+   ```bash
+   python app.py
