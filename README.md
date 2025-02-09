@@ -85,9 +85,9 @@ A web-based leadership assessment application built with Flask and Bootstrap tha
    ```
    
    
-## Deployment (#deployment)
+## Deployment
 
-### Deploying to Heroku (#deploying-to-heroku)
+### Deploying to Heroku
 
 1. **Install the Heroku CLI via the Official Installer:**
 
@@ -111,11 +111,5 @@ A web-based leadership assessment application built with Flask and Bootstrap tha
 4. **Push to Heroku:**
 
    ```bash
-  git push heroku main
-  ```
-
-
-
-
-
-
+   git push heroku main
+   ```
